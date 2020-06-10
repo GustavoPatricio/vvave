@@ -1,0 +1,42 @@
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.deps.json
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.runtimeconfig.json
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.runtimeconfig.dev.json
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.pdb
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.csprojAssemblyReference.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.csproj.CoreCompileInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorAssemblyInfo.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorAssemblyInfo.cs
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.AssemblyInfoInputs.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.AssemblyInfo.cs
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorTargetAssemblyInfo.cache
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.dll
+C:\Users\gusta\OneDrive\Área de Trabalho\modern voltaire\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.pdb
+F:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.deps.json
+F:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.runtimeconfig.json
+F:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.runtimeconfig.dev.json
+F:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.dll
+F:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.pdb
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.csprojAssemblyReference.cache
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.csproj.CoreCompileInputs.cache
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorAssemblyInfo.cache
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorAssemblyInfo.cs
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.AssemblyInfoInputs.cache
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.AssemblyInfo.cs
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorTargetAssemblyInfo.cache
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.dll
+F:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.pdb
+D:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.deps.json
+D:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.runtimeconfig.json
+D:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.runtimeconfig.dev.json
+D:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.dll
+D:\vvave\vvaveapi\bin\Debug\netcoreapp2.1\vvaveapi.pdb
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.csprojAssemblyReference.cache
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.csproj.CoreCompileInputs.cache
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorAssemblyInfo.cache
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorAssemblyInfo.cs
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.AssemblyInfoInputs.cache
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.AssemblyInfo.cs
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.RazorTargetAssemblyInfo.cache
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.dll
+D:\vvave\vvaveapi\obj\Debug\netcoreapp2.1\vvaveapi.pdb

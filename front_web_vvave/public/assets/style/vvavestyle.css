@@ -1,0 +1,178 @@
+@media screen and (max-width: 1024px) {
+    .backgroundWithTitle {
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .backgroundWithTitle {
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+    }
+}
+
+.fullscreen-video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1025px){ 
+    .fullscreen-video-wrapper video{
+        width: 100%;
+        height: auto;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-width: 1025px){ 
+    .fullscreen-video-wrapper video{
+        min-width: 100%;
+        min-height: 100%;
+        transform: translateX(-25%) translateY(-10%);
+    }
+}
+
+.titleForBgWithTitle { 
+    color: white;
+    font-size: calc(2.4vw + 2.4vh);
+    text-align: center;
+    width: 100%;
+    font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    margin-top: -50vh;
+}
+
+.content {
+    padding-bottom: 50%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-family: Roboto;
+}
+
+.content .innerContent {
+    width: 90%;
+    margin: auto;
+}
+
+/* fotos */
+
+/* @media screen and (min-width: 1024px){ 
+    #segundaFoto {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1024px){ 
+    #segundaFoto {
+        transform: translateX(-30%);
+        position: absolute;
+        width: auto;
+        height: 100vh;
+        overflow-x: hidden;
+    }
+} */
+
+
+#segundaFoto { 
+    background: url("../images/art4.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.tituloDaSegundaFoto { 
+    z-index: 1;
+    color: white;
+    margin-top: 10vh;
+    font-size: 4vw;
+    text-align: center;
+    width: 100%;
+    font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+}
+
+
+#terceiraFoto {
+    background: url("../images/art7.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -70vh;
+}
+
+
+.tituloDaTerceiraFoto { 
+    z-index: 1;
+    color: white;
+    margin-top: -25vh;
+    font-size: 5vw;
+    text-align: center;
+    width: 100%;
+    font-family: Roboto, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+}
+
+/* footer styles */
+
+footer {
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #242424;
+}
+
+footer .footerreg {
+    padding-left: 2vw;
+    padding-top: 2.5vh;
+    font-size: 3vh;
+}
+
+footer .footinfo{
+    margin-top: 1vh;
+    text-align: center;
+    margin-left: auto;
+    font-size: 2vh;
+}
+
+@media screen and (max-width: 1024px) {
+    footer .footinfo {
+        display: none;
+    }
+}
+
+footer .footerRedeSociais {
+    margin-right: 2vw;
+    margin-left: auto;
+}
+
+footer .footerinsta {
+    margin-top: 2vh;
+    width: auto;
+    height: 3vh;
+    margin-right: 4vw;
+}
+
+footer .footerfb {
+    margin-top: 2vh;
+    margin-right: 1vw;
+    filter: invert(100%);
+    width: auto;
+    height: 3vh;
+}

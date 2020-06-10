@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>vvave</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: sans-serif;
+      }
+
+      .form-content-text {
+        width: 60%;
+        position: relative;
+        height: 8vh;
+        overflow-x: hidden;
+      }
+
+      .form-content-text input {
+        width: 100%;
+        height: 100%;
+        padding-top: 3.5vh;
+        border: none;
+        outline: none;
+      }
+
+      .form-content-text label {
+        position: absolute;
+        bottom: 0px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        border-bottom: 1px solid black;
+      }
+
+      .form-content-text label::after {
+        transform: translateX(-100%);
+        bottom: -1px;
+        left: 0px;
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        border-bottom: 3px solid #5fa8d3;
+        transition: all 0.3s ease;
+      }
+
+      .content-name {
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+        transition: all 0.3s ease;
+      }
+
+      .form-content-text input:focus + .label-name .content-name,
+      .form-content-text input:valid + .label-name .content-name {
+        transform: translateY(-150%);
+        font-size: 14px;
+        color: #5fa8d3;
+      }
+
+      .form-content-text input:focus + .label-name::after,
+      .form-content-text input:valid + .label-name::after {
+        transform: translateX(0%);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Animation Input</h1>
+    <div class="form-content-text">
+      <input type="text" name="nome" required />
+      <label for="nome" class="label-name">
+        <span class="content-name">Nome</span>
+      </label>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+#loginContent {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#loginBackground {
+  background: url(/assets/images/art5.jpg) no-repeat fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  filter: blur(1px);
+}
+
+#loginWrapper {
+  border-radius: 6px;
+  box-shadow: 1px 2px 6px black;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: 40%;
+  height: 70vh;
+  margin-top: 15vh;
+  margin-right: auto;
+  margin-left: 30vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+form {
+  width: 70%;
+  height: 80%;
+}
+
+.form-content-text {
+  margin-bottom: 3vh;
+  width: 100%;
+  position: relative;
+  height: 9vh;
+  overflow: hidden;
+}
+
+.form-content-text input {
+  width: 100%;
+  height: 100%;
+  padding-top: 2.6vh;
+  border: none;
+  outline: none;
+}
+
+.form-content-text label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.form-content-text label::after {
+  transform: translateX(-100%);
+  bottom: -1px;
+  left: 0px;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transition: all 0.3s ease;
+}
+
+#loginLabel::after {
+  border-bottom: 3px solid #a30054;
+}
+
+#passwordLabel::after {
+  border-bottom: 3px solid yellow;
+}
+
+#loginCadRedirect {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  margin-top: 10vh;
+}
+
+#loginCadRedirect a {
+  text-decoration: none;
+  color: #444444;
+  transition: all 0.5s ease-in-out;
+}
+
+#loginCadRedirect a:hover {
+  padding-left: 0.5vw;
+  color: #a30054;
+}
+
+#loginButton {
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #5a80f2;
+  color: white;
+  border: none;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  padding: 1.5vh 0px;
+  font-size: 1.1vw;
+  transition: all 0.2s ease-in-out;
+}
+
+#loginButton:hover {
+  background-color: #416ef2;
+  border: none;
+  color: white;
+}
+
+#emailInput,
+#passwordInput {
+  text-align: center;
+}
+
+.senhaError::after {
+  border-bottom: 3px solid red !important;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  #loginWrapper {
+    width: 90%;
+    margin-left: 5vw;
+  }
+
+  .form-content-text input {
+    font-size: 3.5vw !important;
+  }
+
+  #loginButton {
+    font-size: 3vw;
+  }
+}

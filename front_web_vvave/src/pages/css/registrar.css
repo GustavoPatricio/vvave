@@ -1,0 +1,155 @@
+#regBody {
+  position: relative;
+  width: 100vw;
+  height: 130vh;
+}
+
+#background {
+  background: url(/assets/images/art10.jpg) no-repeat fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+  filter: blur(0px);
+}
+
+#form {
+  border-radius: 6px;
+  box-shadow: 1px 2px 6px black;
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  width: 50%;
+  height: 100vh;
+  margin-top: 15vh;
+  margin-right: auto;
+  margin-left: 25vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+form {
+  width: 70%;
+  height: 80%;
+}
+
+.form-content-text {
+  margin-bottom: 3vh;
+  width: 100%;
+  position: relative;
+  height: 9vh;
+  overflow: hidden;
+}
+
+.form-content-text input {
+  width: 100%;
+  height: 100%;
+  padding-top: 2.6vh;
+  border: none;
+  outline: none;
+}
+
+.form-content-text label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.form-content-text label::after {
+  transform: translateX(-100%);
+  bottom: -1px;
+  left: 0px;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transition: all 0.3s ease;
+}
+
+.senhaError::after {
+  border-bottom: 3px solid red !important;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+#senhaContent {
+  justify-content: space-between;
+  display: flex;
+}
+
+.senha::after {
+  content: "As senhas devem coincidir";
+  font-family: Roboto, sans-serif;
+  font-size: 1vw;
+  color: red;
+}
+
+#campoSenha1,
+#campoSenha2 {
+  width: 45%;
+}
+
+#senhaContent input {
+  font-size: 1.1vw;
+}
+
+.confirmaContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 9vh;
+}
+
+#ConfirmarButton {
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 0.5px solid black;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  padding: 1.5vh 0px;
+  font-size: 1.1vw;
+  transition: all 0.2s ease-in-out;
+}
+
+#ConfirmarButton:hover {
+  border: none;
+  background-color: #313131;
+  color: white;
+}
+
+.form-content-text input:focus + .label-name .content-name,
+.form-content-text input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #5fa8d3;
+}
+
+.form-content-text input:focus + .label-name::after,
+.form-content-text input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+/* mobile */
+
+@media screen and (max-width: 1024px) {
+  #form {
+    width: 90%;
+    margin-left: 5vw;
+  }
+}
